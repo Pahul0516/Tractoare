@@ -11,9 +11,9 @@ import java.util.Scanner;
 public class Repository {
     List<Tractor> list= new ArrayList<>();
 
-    void read()
+    public void read()
     {
-        File file = new File("tractoare.csv");
+        File file = new File("C:\\Users\\berin\\IdeaProjects\\Tractoare\\src\\main\\java\\org\\example\\tractoare\\Repository\\tractoare.csv");
         try (Scanner scanner = new Scanner(file)) {
             while (scanner.hasNextLine()) {
                 String line = scanner.nextLine();
@@ -26,10 +26,10 @@ public class Repository {
         }
     }
 
-    void create(Tractor t) {
+    public void create(Tractor t) {
         list.add(t);
     }
-    void delete(Tractor t) {
+    public void delete(Tractor t) {
         list.remove(t);
     }
 }
