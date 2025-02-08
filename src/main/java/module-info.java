@@ -5,4 +5,6 @@ module org.example.tractoare {
 
     opens org.example.tractoare to javafx.fxml;
     exports org.example.tractoare;
+    exports org.example.tractoare.Controller;
+    opens org.example.tractoare.Controller to javafx.fxml;
 }
