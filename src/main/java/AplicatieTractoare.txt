@@ -1,0 +1,25 @@
+Sa se creeze o aplicatie e gestiune a  tractoarelor. Aceasta va respecta arhitectura stratificata:
+
+Entitati:
+Tractor(id,nume,pret)
+Metode: constructor, get, set
+
+Repository:
+Metode: find, findbyid, 
+	write, read, 
+	create, delete
+
+Ui - interfata grafica in javafx:
+
+
+Task-uri:
+
+Larisa - clasa tractor implementata cu toate metodele
+       - clasa repository: find, findbyid, write
+	
+Paul - clasa repository: read, create, delete
+     - interfata grafica 
+
+
+Citirea datelor se va face dintr-un fisier tractoare.txt
+Fiecare persaona v-a lucra pe cate un brench separat 
