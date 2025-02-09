@@ -5,7 +5,7 @@ import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
-import org.example.tractoare.Domain.Tractor;
+import org.example.tractoare.Repository.Tractor;
 import org.example.tractoare.Repository.Repository;
 
 public class Controller extends Service{
